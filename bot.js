@@ -76,7 +76,7 @@ const lol =
 '**welcome to Urgent SERVER.. :wilted_rose::black_heart:**'
 ]
 client.on('guildMemberAdd', member => {
-const codes = member.guild.channels.get("517790611776995330");
+const codes = member.guild.channels.get("51779061177699530");
 if(!codes) return;
 if(codes) {
     setTimeout(() => codes.send(`${lol[Math.floor(Math.random() * lol.length)]} ${member}`), 3000)       
