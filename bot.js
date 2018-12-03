@@ -52,7 +52,7 @@ console.log("BOT ONLINE");
 
   setInterval(() => {
 
-client.channels.get("491690814951522305").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+client.channels.get("4916908149515225").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
 
 },40000);
 
@@ -76,7 +76,7 @@ const lol =
 '**welcome to Urgent SERVER.. :wilted_rose::black_heart:**'
 ]
 client.on('guildMemberAdd', member => {
-const codes = member.guild.channels.get("51779061177699530");
+const codes = member.guild.channels.get("5177906117799530");
 if(!codes) return;
 if(codes) {
     setTimeout(() => codes.send(`${lol[Math.floor(Math.random() * lol.length)]} ${member}`), 3000)       
