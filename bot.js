@@ -1,32 +1,48 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-let timer;
-console.log("BOT ONLINE");
-client.on('ready', () => {
+  message.channel.send(`تَم تغيير الليسينينق الى   ${argresult}`)
+  } else
+  if (message.content.startsWith(adminprefix + 'st')) {
+    client.user.setGame(argresult, httpswww.twitch.tvpaaaaaartly);
+      message.channel.send(`تم تغييرك حالتك بالتويتش الى   ${argresult}`)
+  }
+  if (message.content.startsWith(adminprefix + 'sn')) {
+  client.user.setUsername(argresult).then
+      message.channel.send(`جاري تغيير الأسم لـ ..${argresult} `)
+} else
+if (message.content.startsWith(adminprefix + 'sa')) {
+  client.user.setAvatar(argresult);
+    message.channel.send(`جاري تغيير الأفتار...  `);
+}
+});
+
+console.log(BOT ONLINE);
+
+});
+client.on('ready', () = {
     console.log(`Logged as ${client.user.tag}`)
 })
 const lol =
 [
-'**Wellcome To Viólin:notes::notes:...**',
-'**Wellcome To Viólin:notes::notes:...**',
-'**welcome to Viólin SERVER.. :wilted_rose::black_heart:**',
-'**welcome to Viólin SERVER.. :wilted_rose::black_heart:**',
-'**Bienvenue à Viólin :zzz::musical_keyboard:**',
-'**Bienvenue à Viólin :zzz::musical_keyboard:**',
-'**Welcome To Viólin  :heart:**',
-'**Welcome To Viólin  :heart:**',
-'**Welcome To Viólin...:frowning: :heart: **',
-'**Welcome To Viólin...:frowning: :heart: **',
-'**welcome to Viólin SERVER.. :wilted_rose::black_heart:**',
-'***Wellcome To Viólin:notes::notes:...**',
-'**Welcome To Viólin  :heart:**',
-'**welcome to Viólin SERVER.. :wilted_rose::black_heart:**'
+'Wellcome To Viólinnotesnotes...',
+'Wellcome To Viólinnotesnotes...',
+'welcome to Viólin SERVER.. wilted_roseblack_heart',
+'welcome to Viólin SERVER.. wilted_roseblack_heart',
+'Bienvenue à Viólin zzzmusical_keyboard',
+'Bienvenue à Viólin zzzmusical_keyboard',
+'Welcome To Viólin  heart',
+'Welcome To Viólin  heart',
+'Welcome To Viólin...frowning heart ',
+'Welcome To Viólin...frowning heart ',
+'welcome to Viólin SERVER.. wilted_roseblack_heart',
+'Wellcome To Viólinnotesnotes...',
+'Welcome To Viólin  heart',
+'welcome to Viólin SERVER.. wilted_roseblack_heart'
 ]
-client.on('guildMemberAdd', member => {
-const codes = member.guild.channels.get("621423241608822804");
+client.on('guildMemberAdd', member = {
+const codes = member.guild.channels.get(621423241608822804);
 if(!codes) return;
 if(codes) {
-    setTimeout(() => codes.send(`${lol[Math.floor(Math.random() * lol.length)]} ${member}`), 3000)       
+    setTimeout(() = codes.send(`${lol[Math.floor(Math.random()  lol.length)]} ${member}`), 3000)       
 }
 });
-client.login('NDc2MTMwNDczNjgxMDkyNjA4.XYZR0g.NGp8E_BrxmkssbG7TuwYKzniPRY');
+
+client.login(process.env.BOT_TOKEN);
